@@ -1,0 +1,59 @@
+﻿namespace WindowsFormsApp1
+{
+    internal enum WindowStyleEx : uint
+    {
+        WS_EX_ACCEPTFILES = 16U,
+
+        WS_EX_APPWINDOW = 262144U,
+
+        WS_EX_CLIENTEDGE = 512U,
+
+        WS_EX_COMPOSITED = 33554432U,
+
+        WS_EX_CONTEXTHELP = 1024U,
+
+        WS_EX_CONTROLPARENT = 65536U,
+
+        WS_EX_DLGMODALFRAME = 1U,
+
+        WS_EX_LAYERED = 524288U,
+
+        WS_EX_LAYOUTRTL = 4194304U,
+
+        WS_EX_LEFT = 0U,
+
+        WS_EX_LEFTSCROLLBAR = 16384U,
+
+        WS_EX_LTRREADING = 0U,
+
+        WS_EX_MDICHILD = 64U,
+
+        WS_EX_NOACTIVATE = 134217728U,
+
+        WS_EX_NOINHERITLAYOUT = 1048576U,
+
+        WS_EX_NOPARENTNOTIFY = 4U,
+
+        WS_EX_NOREDIRECTIONBITMAP = 2097152U,
+
+        WS_EX_OVERLAPPEDWINDOW = 768U,
+
+        WS_EX_PALETTEWINDOW = 392U,
+
+        WS_EX_RIGHT = 4096U,
+
+        WS_EX_RIGHTSCROLLBAR = 0U,
+
+        WS_EX_RTLREADING = 8192U,
+
+        WS_EX_STATICEDGE = 131072U,
+
+        WS_EX_TOOLWINDOW = 128U,
+
+        WS_EX_TOPMOST = 8U,
+
+        WS_EX_TRANSPARENT = 32U,
+
+        WS_EX_WINDOWEDGE = 256U
+    }
+}
